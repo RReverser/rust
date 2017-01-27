@@ -100,3 +100,5 @@ version.md
 version.ml
 version.texi
 .cargo
+/emsdk_portable
+/src/target

@@ -58,6 +58,8 @@ pub mod ffi;
 
 pub use ffi::*;
 
+#[link(name = "ffi")] extern {}
+
 impl LLVMRustResult {
     pub fn into_result(self) -> Result<(), ()> {
         match self {
